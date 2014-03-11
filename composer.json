@@ -1,0 +1,21 @@
+{
+	"name": "venne/generics",
+	"description": "Generics in PHP",
+	"require": {
+		"php": ">=5.3.1",
+		"nette/nette": "~2.0"
+	},
+	"require-dev": {
+		"nette/tester": "~1.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Venne\\Generics\\": "Venne/Generics/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"VenneTests\\Generics\\": "tests/Generics/"
+		}
+	}
+}
